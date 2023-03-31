@@ -16,7 +16,6 @@ Submit a POST request to the `/log` endpoint with a JSON body that looks like:
 ### AMQP
 Send a JSON message to the log_queue queue with the following format:
 ```json
-Copy code
 {
   "application": "my_app",
   "level": "info",
