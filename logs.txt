@@ -1,0 +1,2 @@
+2023-03-31T11:04:17+05:30 [my-app] [info] hello, world
+2023-03-31T11:13:04+05:30 [my_app] [info] This is a test log message
