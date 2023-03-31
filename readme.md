@@ -31,6 +31,6 @@ You can test the microservice using tools like curl for HTTP or create a custom 
 curl -X POST -H "Content-Type: application/json" -d '{"application":"my_app","level":"info","message":"This is a test log message"}' http://localhost:8080/log
 ```
 ### AMQP
-Refer to the `log_amqp_producer.go` file for an example of how to send messages to the log_queue queue.
+Refer to the `log_amqp_producer/producer.go` file for an example of how to send messages to the log_queue queue.
 
 
